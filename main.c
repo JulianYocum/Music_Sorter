@@ -20,7 +20,7 @@ int main (int argc, char* argv[])
 		argv[1] = ".";
 	}
 	
-	//opens choosen directory as pdir
+	//opens chosen directory as pdir
 	DIR *pdir = NULL;
     pdir = opendir (argv[1]);
     struct dirent *pent = NULL;
@@ -129,7 +129,6 @@ int move(char* Music_File, char* path)
 
 	fclose(old);
 	fclose(new);
-	
 	
     return 0;
 }
